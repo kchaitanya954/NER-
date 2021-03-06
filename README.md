@@ -1,7 +1,7 @@
 # Named Entity Recognition
 Perform Named Entity Recognition on scrapped data and extract entities like city, person, organisation, Date, Geographical Entity, Product etc.
-
-###Import all the required 
+ 
+### Import all the required 
 ```python
 import streamlit as st
 import wikipedia
@@ -11,7 +11,7 @@ import spacy_streamlit
 import spacy
 ```
 
-### Import the spcy english library
+### Import the spacy english library
 ```python
 nlp = spacy.load('en_core_web_sm')
 ```
@@ -31,6 +31,6 @@ wikipedia.summary(word)
 
 ![alt text](https://github.com/kchaitanya954/NER-/blob/main/Screenshot%20at%202021-03-06%2023-26-43.png)
 
-###Bar graph represents the count of each labels recognized in the text.
+### Bar graph represents the count of each labels recognized in the text.
 coult of each label is extracted by caluclating the entities label using scapy.  
 ![alt text](https://github.com/kchaitanya954/NER-/blob/main/Screenshot%20at%202021-03-06%2023-26-26.png)
